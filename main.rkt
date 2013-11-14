@@ -1,10 +1,19 @@
 #lang at-exp racket
 
+;; Bibliography of Racket papers
+
 (require autobib-utils
          scribble/manual
          scriblib/autobib)
 
 (provide (all-defined-out))
+
+;; Naming convention
+;;
+;; One binding as
+;;   lastinitials-venue-year
+;; and zero or more short names
+;;   <short-name>
 
 (define-bib (ff-icfp-2002 <contracts>)
   (make-bib
