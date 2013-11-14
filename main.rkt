@@ -65,7 +65,7 @@
    #:location (proceedings-location ifl #:pages '(141 158))
    #:date "2009"))
 
-(define-bib (<plt-tr1-2010-1> <reference>)
+(define-bib (plt-tr1-2010-1 <reference>)
   (make-bib
    #:title    "Reference: Racket"
    #:author   (authors "Matthew Flatt" "PLT")
