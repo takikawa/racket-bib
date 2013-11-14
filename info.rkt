@@ -1,4 +1,5 @@
 #lang info
 
-(define deps '("base" "scribble-lib" "autobib-utils"))
+(define deps '("base" "scribble-lib" "autobib-utils"
+               "at-exp-lib"))
 
